@@ -48,7 +48,33 @@ The project requires the following Python libraries:
 ```
 ### Installing
 1. Clone the repository
+```bash
+git clone https://github.com/IbrahemHussein/Medical-Appointment-No-Show-Analysis.git
+```
+2. Navigate to the directory
+```bash
+cd Medical-Appointment-No-Show-Analysis
+```
+3. Install the requirements
+```bash
 
+pip install -r requirements.txt
+```
+## Built With
+
+* [Python](https://www.python.org/) - The programming language used.
+* [Pandas](https://pandas.pydata.org/) - Data analysis and manipulation tool.
+* [NumPy](https://numpy.org/) - Library for numerical computations in Python.
+* [Seaborn](https://seaborn.pydata.org/) - Statistical data visualization library based on matplotlib.
+* [Klib](https://github.com/akanz1/klib) - Data cleaning and data visualization library.
+* [Plotly Express](https://plotly.com/python/plotly-express/) - High-level interface for data visualization.
+* [Scikit-learn](https://scikit-learn.org/) - Machine learning library.
+
+
+## Authors
+
+- ibrahem elhsainy  
+    - GitHub: [ibrahem hussaein](https://github.com/IbrahemHussein)
 
 Project Organization
 ------------
