@@ -1,5 +1,5 @@
 # Medical Appointment No-Show Analysis
-==============================
+---------------------------------------
 
 
 ![image](OIG3.2avc.jpeg)
@@ -43,7 +43,7 @@ The project requires the following Python libraries:
 - pip install numpy 
 - pip install seaborn 
 - pip install klib 
--pip install plotly-express 
+- pip install plotly-express 
 - pip install Scikit-learn
 ```
 ### Installing
