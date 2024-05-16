@@ -1,0 +1,153 @@
+/* Style for the header */
+.header {
+    text-align: center;
+    padding: 25px;
+    background-color: #222831;
+}
+
+.header-title {
+    font-size: 32px;
+    transition: color 0.3s ease;
+    color: #00ADB5;
+}
+.header-title:hover {
+    color: #E84545; 
+    cursor: pointer; 
+    font-size: 35px;
+}
+
+
+.header-description {
+    font-size: 19px;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    color: #EEEEEE;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: -10px;
+}
+
+/* Style for the user control section */
+.user-control {
+    flex: 1;
+    padding: 20px;
+    background-color: darkgray;
+}
+.Dash_image{
+    width: 260px;
+    height: 220px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.neighbourhood-label {
+    font-size: 20px;
+    color: #222831;
+    margin-left: -105px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dash-dropdown{
+    width: 60%;
+    margin: 0 10px;
+}
+
+.drop_neighbourhood {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #444;
+    color: #705858;
+}
+/* Styling the checkbox container */
+#gender-checklist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+  /* Styling the checkbox label */
+#gender-checklist label {
+    display: flex;
+    align-items: center; /* Align checkbox and label vertically */
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/*Styling the checkbox input */
+#gender-checklist input[type="checkbox"] {
+    display: none; /* Hide the default checkbox */
+}
+
+  /* Styling the custom checkbox */
+#gender-checklist input[type="checkbox"]{
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #007bff; /* Border color for the unchecked state */
+    border-radius: 3px;
+    margin-right: 5px; /* Add space between checkbox and label text */
+    transition: border-color 0.3s ease;
+}
+.gender_label{
+    font-size: 20px;
+    margin-left: 100px;
+    color: #222831;
+}
+.gender-checklist input[type="checkbox"]{
+    position: absolute;
+    opacity: 0;
+}
+
+/* Style for the figures section */
+.figure {
+    flex: 3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #323232;
+    margin-left: -100px;
+    
+}
+
+.pie_figure {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_gender_pie,
+.div_no_show_pie,
+.div_sms_received {
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 18px;
+    margin-top: 13px
+}
+.js-plotly-plot{
+    height: 100%;
+    width: 100%;
+    margin-top: -120px;
+}
+.chart_2 {
+    display: flex;
+    flex: 2;
+    justify-content: flex-start;
+
+}
+.month_line_plot{
+    width: 550px;
+    height: 380px;
+}
+
+
